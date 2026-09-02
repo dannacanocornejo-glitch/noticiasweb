@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Noticias del Perú</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>NOTICIAS DEL PERÚ</h1>
+
+        <p>
+            Información, actualidad y noticias de nuestro país
+        </p>
+
+    </header>
+
+
+    <!-- MENÚ -->
+
+    <nav>
+
+        <a href="index.html">
+            INICIO
+        </a>
+
+        <a href="nacionales.html"
+           onclick="cargarPagina(event, 'nacionales.html')">
+            NACIONALES
+        </a>
+
+        <a href="deportes.html"
+           onclick="cargarPagina(event, 'deportes.html')">
+            DEPORTES
+        </a>
+
+        <a href="espectaculos.html"
+           onclick="cargarPagina(event, 'espectaculos.html')">
+            ESPECTÁCULOS
+        </a>
+
+        <a href="cultura.html"
+           onclick="cargarPagina(event, 'cultura.html')">
+            CULTURA
+        </a>
+
+        <a href="contacto.html"
+           onclick="cargarPagina(event, 'contacto.html')">
+            CONTACTO
+        </a>
+
+    </nav>
+
+
+    <main>
+
+        <!-- CONTENIDO DINÁMICO -->
+
+        <div id="contenido">
+
+
+            <!-- SLIDER -->
+
+            <section class="slider">
+
+                <div class="slides">
+
+
+                    <div class="slide">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1400&q=80"
+                            alt="Noticias">
+
+                        <div class="slide-texto">
+
+                            <span>ACTUALIDAD</span>
+
+                            <h2>
+                                Las principales noticias del Perú
+                            </h2>
+
+                            <p>
+                                Mantente informado con las noticias
+                                más importantes del día.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="slide">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1400&q=80"
+                            alt="Deportes">
+
+                        <div class="slide-texto">
+
+                            <span>DEPORTES</span>
+
+                            <h2>
+                                Toda la actualidad deportiva
+                            </h2>
+
+                            <p>
+                                Resultados, protagonistas y las últimas
+                                novedades del mundo deportivo.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="slide">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1400&q=80"
+                            alt="Espectáculos">
+
+                        <div class="slide-texto">
+
+                            <span>ESPECTÁCULOS</span>
+
+                            <h2>
+                                Noticias del mundo del entretenimiento
+                            </h2>
+
+                            <p>
+                                Música, cine, televisión y mucho más.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- NOTICIA PRINCIPAL -->
+
+            <section class="noticia-principal">
+
+                <img
+                    src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1000&q=80"
+                    alt="Noticia principal">
+
+                <div class="noticia-principal-contenido">
+
+                    <div class="categoria">
+                        NOTICIAS
+                    </div>
+
+                    <h2>
+                        Las noticias más importantes de la actualidad
+                    </h2>
+
+                    <p>
+                        Conoce las últimas novedades y acontecimientos
+                        que están marcando la actualidad nacional.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- ÚLTIMAS NOTICIAS -->
+
+            <section class="noticias">
+
+                <h2>
+                    Últimas noticias
+                </h2>
+
+                <div class="grid-noticias">
+
+
+                    <article class="noticia">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=700&q=80"
+                            alt="Noticias nacionales">
+
+                        <div class="noticia-contenido">
+
+                            <div class="categoria">
+                                Nacionales
+                            </div>
+
+                            <h3>
+                                Actualidad nacional
+                            </h3>
+
+                            <p>
+                                Conoce los principales acontecimientos
+                                que ocurren en el Perú.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="noticia">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=700&q=80"
+                            alt="Deportes">
+
+                        <div class="noticia-contenido">
+
+                            <div class="categoria">
+                                Deportes
+                            </div>
+
+                            <h3>
+                                Toda la información deportiva
+                            </h3>
+
+                            <p>
+                                Resultados y novedades del deporte
+                                nacional e internacional.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="noticia">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=700&q=80"
+                            alt="Espectáculos">
+
+                        <div class="noticia-contenido">
+
+                            <div class="categoria">
+                                Espectáculos
+                            </div>
+
+                            <h3>
+                                Noticias del entretenimiento
+                            </h3>
+
+                            <p>
+                                Música, cine, televisión y las
+                                últimas novedades de los artistas.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </section>
+
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h3>
+            NOTICIAS DEL PERÚ
+        </h3>
+
+        <p>
+            Información y actualidad nacional
+        </p>
+
+        <p>
+            contacto@noticiasdelperu.com
+        </p>
+
+        <p>
+            © 2026 Noticias del Perú. Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script>
+
+        function cargarPagina(event, pagina) {
+
+            event.preventDefault();
+
+            const contenido =
+                document.getElementById("contenido");
+
+            contenido.innerHTML =
+                "<p>Cargando sección...</p>";
+
+            fetch(pagina)
+
+                .then(function(respuesta) {
+
+                    if (!respuesta.ok) {
+
+                        throw new Error(
+                            "No se pudo cargar la sección"
+                        );
+
+                    }
+
+                    return respuesta.text();
+
+                })
+
+                .then(function(datos) {
+
+                    contenido.innerHTML = datos;
+
+                    window.scrollTo({
+                        top: 0,
+                        behavior: "smooth"
+                    });
+
+                })
+
+                .catch(function(error) {
+
+                    contenido.innerHTML = `
+                        <section class="seccion">
+
+                            <h2>Error</h2>
+
+                            <p>
+                                No se pudo cargar la sección solicitada.
+                            </p>
+
+                        </section>
+                    `;
+
+                });
+
+        }
+
+    </script>
+
+</body>
+
+</html>
