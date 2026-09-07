@@ -1,0 +1,93 @@
+<section class="seccion">
+
+    <div class="titulo-seccion">
+
+        <h2>CONTACTO</h2>
+
+        <p>
+            Comunícate con el equipo de Noticias del Perú.
+        </p>
+
+    </div>
+
+
+    <form class="formulario">
+
+        <label for="nombre">
+            Nombre completo
+        </label>
+
+        <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Escribe tu nombre"
+            required
+        >
+
+
+        <label for="correo">
+            Correo electrónico
+        </label>
+
+        <input
+            type="email"
+            id="correo"
+            name="correo"
+            placeholder="ejemplo@correo.com"
+            required
+        >
+
+
+        <label for="asunto">
+            Asunto
+        </label>
+
+        <select id="asunto" name="asunto">
+
+            <option value="">
+                Selecciona un asunto
+            </option>
+
+            <option value="noticia">
+                Información sobre una noticia
+            </option>
+
+            <option value="publicidad">
+                Publicidad
+            </option>
+
+            <option value="sugerencia">
+                Sugerencia
+            </option>
+
+            <option value="otro">
+                Otro
+            </option>
+
+        </select>
+
+
+        <label for="mensaje">
+            Mensaje
+        </label>
+
+        <textarea
+            id="mensaje"
+            name="mensaje"
+            rows="7"
+            placeholder="Escribe tu mensaje"
+            required
+        ></textarea>
+
+
+        <button
+            type="submit"
+            class="boton"
+        >
+            ENVIAR MENSAJE
+        </button>
+
+    </form>
+
+</section>
